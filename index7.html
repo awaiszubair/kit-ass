@@ -1,0 +1,237 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        nav{
+            /* background-color: black; */
+            background-color: #333333;
+            /* border: 1px solid black; */
+            width: 100%;
+            position: sticky;
+            top: 0;
+            min-height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem;
+        }
+        .logo{
+            /* border: 1px solid black; */
+            width: 122px;
+            height: 30px;
+        }
+        .nav_list ul li{
+            display: inline;
+            color: white;
+            margin-left: 3rem;
+        }
+        .hero{
+            /* border: 1px solid black; */
+            background-color:bisque;
+            height: 100vh;
+            width: 100%;
+            /* background-image: url("pic-2.jpg"); */
+            background-image: url("chicago.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            /* background-size: cover; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            /* border: 1px solid white; */
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .content h1{
+            color: white;
+            padding: 0.2rem;
+            text-align: center;
+        }
+        .content p{
+            color: white;
+            padding: 0.2rem;
+            text-align: center;
+        }
+        .content a{
+            padding: 0.5rem;
+            text-decoration: none;
+            border-radius: 0.2rem;
+        }
+       .content-2{
+        border: 1px solid black;
+        min-height: 100px;
+        padding: 1rem;
+        background-color: #f4f4f4;
+       }
+       .text-2{
+        width: 100%;
+       }
+       .text-2 h1{
+        text-align: center;
+        color:#333333;
+        font-family: Roboto, sans-serif;
+       }
+     .detail-2{
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;flex-direction: row;justify-content:space-evenly;
+        background-color: #f4f4f4;
+     }
+     .box{
+        padding: 1rem;
+        /* border: 1px solid black; */
+        /* background-color: white; */
+        min-height: 50px;
+        width: 30%;
+        display: flex;flex-direction: column;justify-content: center;align-items: center;margin-top: 1rem;
+     }
+     p{
+        color: black;
+     }
+     .section-3{
+        /* border: 1px solid black; */
+        min-height: 300px;
+        display: flex;flex-direction: row;
+        /* background-color: black; */
+     }
+     .section-3 .boxes{
+        width: 100%;
+        /* border: 1px solid black; */
+        background-color: #444;
+     }
+     .boxes ul{
+        list-style-type: none;
+     }.boxes li{color: white;border-bottom: 1px dotted white;padding-top: 1rem;}
+     .section-4{
+        min-height: 150px;
+        border: 1px solid black;
+        display: flex;flex-direction: column;
+        justify-content: center;
+        align-items: center;padding: 1rem;
+     }
+     .boxes h1,p,label{
+        color: white;
+     }
+     .boxes form input{
+        margin-bottom: 1rem;
+     }
+     .detail-2 .box h3,p{
+        font-family: Roboto, sans-seri;
+     }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="pic-3.PNG" alt="" style="width: 100%;height: 100%;">
+        </div>        
+        <div class="nav_list">
+            <ul>
+                <li>Home</li>
+                <li>What</li>
+                <li>Who</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="content">
+            <div>
+            <h1 style="font-size: 60px;font-family: Roboto, sans-serif;;">The Sky Is The Limit</h1>
+            <p style="font-size: 14px;font-family: Roboto, sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint, expedita soluta quo doloribus perspiciatis.</p>
+            </div>
+            <div style="margin-top: 2rem;">
+            <a href="" style="color: white;background-color: #93cb52;">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="content-2">
+        <div class="text-2"><h1><span style="color: #93cb52;margin-right: 0.5rem;">What</span>We Do</h1></div>
+        <div class="detail-2">
+            <div class="box">
+                <div class="bank-img" style="width: 50px;height: 50px;text-align: center;">
+                    <img src="bank.PNG" alt="" style="width: 100%;height: 100%;">
+                </div>
+                <h3>Banking Investment</h3>
+                <p style="text-align: center;font-size: 14px;color: black;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, a.</p>
+            </div>
+            <div class="box">
+                <div class="bank-img" style="width: 50px;height: 50px;text-align: center;">
+                    <img src="port.PNG" alt="" style="width: 100%;height: 100%;">
+                </div>
+                <h3>Portfolio Management</h3>
+                <p style="text-align: center;font-size: 14px;color: black;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, a.</p>
+            </div>
+            <div class="box">
+                <div class="bank-img" style="width: 50px;height: 50px;text-align: center;">
+                    <img src="tax.PNG" alt="" style="width: 100%;height: 100%;">
+                </div>
+                <h3 style="font-family: Roboto, sans-seri;">Tax & Custodial</h3>
+                <p style="text-align: center;font-size: 14px;color: black;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, a.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="section-3">
+        <div class="boxes">
+            <img src="pic-5.PNG" alt="" style="width: 100%;height: 100%;">
+        </div>
+        <div class="boxes" style="padding: 1rem;">
+            <div>
+            <h1 style="color: white;"><span style="color: #93cb52;">Who</span>We Are</h1>
+            <p style="padding-top: 1rem;color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, delectus iure tenetur dignissimos dolores consequatur omnis accusantium. Ab maiores obcaecati necessitatibus adipisci nesciunt, corporis distinctio, vitae temporibus, animi reprehenderit rerum.</p>
+            <h2 style="color: white;padding-top: 1rem;font-family: Roboto, sans-serif;font-weight: bold;">Our Team</h2>
+            <ul>
+                <li>Mark Smith:CEO</li>
+                <li>Basit Hussain:CFO</li>
+                <li>Muhammad Haris:Lead Accountant</li>
+                <li>Bilal Ahmed:Investment Management</li>
+                <li>Fatima Ahmed:Senior Accountant</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section-4">
+        <div class="text-2"><h1><span style="color: #93cb52;margin-right: 0.5rem;">Our</span>Clients</h1></div>
+        <div style="width: 55rem;height: 100px;margin-top: 1rem;">
+        <img src="pic-6.PNG" alt="" style="width: 100%;height: 100%;">
+        </div>
+    </div>
+    <div class="section-3">
+        <div class="boxes" style="padding: 1rem;background-color: #93cb52;">
+            <h1>Contact Us</h1>
+            <p style="margin-bottom: 1rem;">Please use the form below to contact us</p>
+        <form action="">
+            <label for="name">Name</label><br>
+            <input type="text" placeholder="Enter Your Name" style="padding: 0.5rem;width: 30rem;"><br>
+            <label for="email">Email</label><br>
+            <input type="email" placeholder="Enter Your Email" style="padding: 0.5rem;width: 30rem;"><br>
+            <label for="phone-number">Phone Number</label><br>
+            <input type="number" placeholder="Enter Your Phone Number" style="padding: 0.5rem;width: 30rem;"><br>
+            <label for="messagge">Message</label><br>
+            <textarea name="" id="" cols="60" rows="5"></textarea><br>
+            <button type="submit" style="width: 100%;background-color: #333333;color: white;margin-top: 1rem;padding: 0.3rem;border-radius: 1px;">Send</button>
+        </form>
+        </div>
+        <div class="boxes" style="padding: 1rem;display: flex;justify-content: center;align-items: center;background-color: #f4f4f4;">
+           <h3>Map are not shown because the subscription is expired</h3>
+        </div>
+    </div>
+    <footer style="width: 100%;min-height: 50px;display: flex;justify-content: center;align-items: center;padding: 1rem;background-color: #333333;">
+        <p style="font-size: 12px;">Copyright © 2019, EdgeLedger, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
